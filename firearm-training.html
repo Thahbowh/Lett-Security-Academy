@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lett Security Academy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">Lett Security Academy</div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <nav class="navbar" id="navbar">
+      <a href="index.html"><strong>Home</strong></a>
+      <a href="overview.html"><strong>Overview</strong></a>
+      <a href="about.html"><strong>About Us</strong></a>
+      <a href="registration.html"><strong>Register</strong></a>
+    </nav>
+  </header>
+ <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #222;
+}
+
+.training-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 30px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.training-card {
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  padding-bottom: 20px;
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 0.8s ease-out forwards;
+}
+
+.training-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.icon-box {
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: goldenrod;
+  padding: 14px;
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(0,0,0,0.3);
+}
+
+.icon-box img {
+  width: 30px;
+  height: 30px;
+}
+
+.training-card h2 {
+  margin: 60px 10px 10px;
+  font-size: 20px;
+  color: #111;
+}
+
+.training-card p {
+  margin: 0 10px 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Animations */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation Delays */
+.animate-fade.delay-1 { animation-delay: 0.2s; }
+.animate-fade.delay-2 { animation-delay: 0.4s; }
+.animate-fade.delay-3 { animation-delay: 0.6s; }
+.animate-fade.delay-4 { animation-delay: 0.8s; }
+.animate-fade.delay-5 { animation-delay: 1s; }
+.animate-fade { animation-delay: 0s; }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .icon-box {
+    top: 110px;
+  }
+
+  .training-card h2 {
+    font-size: 18px;
+  }
+
+  .training-card p {
+    font-size: 15px;
+  }
+}
+
+.enroll-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: goldenrod;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.enroll-btn:hover {
+  background-color: black;
+  color: goldenrod;
+  transform: scale(1.05);
+}
+
+
+  </style>
+</head>
+<body>
+  <p>///</p>
+  <p>ttt</p>
+<section class="training-section">
+  <div class="training-card animate-fade">
+    <img src="images (10).jpeg" alt="Firearm Training">
+    <h2>Firearms Compliance Training</h2>
+    <p>Get legally accredited to work with and possess a firearm — essential for any security career involving firearms.</p>
+    <a href="https://wa.me/27813826643?text=Hi%20I%20would%20like%20to%20enroll%20for%20the%20course%20of%20Firearms%20Compliance%20Training" 
+   class="enroll-btn" target="_blank" rel="noopener">
+  Enroll Now
+</a>
+
+
+  </div>
+
+  <div class="training-card animate-fade delay-1">
+    <img src="rifle.jpeg" alt="Rifle Training">
+    <h2>Handle and Use a Self-Loading Rifle or Carbine</h2>
+    <p>Master the use of self-loading rifles or carbines for high-risk tactical operations and professional security detail.</p>
+    <a href="https://wa.me/27813826643?text=Hi%20I%20would%20like%20to%20enroll%20for%20the%20course%20of%20Handle%20and%20use%20a%20self-loading%20Rifle%20or%20Carbine" 
+   class="enroll-btn" target="_blank" rel="noopener">
+  Enroll Now
+  </a>
+  </div>
+
+  <div class="training-card animate-fade delay-2">
+    <img src="shortgun.jpeg" alt="Shotgun Training">
+    <h2>Handle and Use of a Shotgun for Private Use</h2>
+    <p>Learn responsible and safe use of a shotgun for personal protection and home defense.</p>
+    <a href="https://wa.me/27813826643?text=Hi%20I%20would%20like%20to%20enroll%20for%20the%20course%20of%20Handle%20and%20use%20of%20a%20shotgun%20for%20a%20private%20use" 
+   class="enroll-btn" target="_blank" rel="noopener">
+  Enroll Now
+  </a>
+  </div>
+
+  <div class="training-card animate-fade delay-3">
+    <img src="handgunprivate.jpeg" alt="Handgun Private">
+    <h2>Handle and Use of a Handgun (Private Use)</h2>
+    <p>Obtain competency to carry and use a handgun for lawful private defense and everyday protection.</p>
+    <a href="https://wa.me/27813826643?text=Hi%20I%20would%20like%20to%20enroll%20for%20the%20course%20of%20Handle%20and%20use%20of%20a%20handgun%20(PrivateUse)" 
+   class="enroll-btn" target="_blank" rel="noopener">
+  Enroll Now
+  </a>
+  </div>
+
+  <div class="training-card animate-fade delay-4">
+    <img src="handgunbusiness.jpeg" alt="Handgun Business">
+    <h2>Handle and Use of a Handgun (Business Use)</h2>
+    <p>Get licensed to use a handgun in your professional capacity — ideal for security, enforcement, and business protection.</p>
+    <a href="https://wa.me/27813826643?text=Hi%20I%20would%20like%20to%20enroll%20for%20the%20course%20of%20Handle%20and%20use%20of%20a%20handgun%20(businessUse)" 
+   class="enroll-btn" target="_blank" rel="noopener">
+  Enroll Now
+  </a>
+  </div>
+
+  
+  </div>
+</section>
+
+  <footer>
+    <p>Copyright &copy; 2025 by Thabo Mosikidi | All rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+  
+    <!-- Mobile Menu Script -->
+  <script>
+    const toggle = document.getElementById("menu-toggle");
+    const navbar = document.getElementById("navbar");
+
+    toggle.addEventListener("click", () => {
+      navbar.classList.toggle("active");
+    });
+  </script>
